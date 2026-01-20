@@ -41,7 +41,12 @@ Type-in a name for your rule. Click Finish.\
  Now on Ubuntu VM, start the Splunk idexer: ```sudo /opt/splunk/bin/splunk start```\
 After typing-in the 'http://127.0.0.1:8000', then click on Search & Reporting, and click on Data Summary Tab.\
 <img width="796" height="243" alt="twentyone" src="https://github.com/user-attachments/assets/5591e1f2-77be-4a22-8a6a-f3883690667a" />\
-<img width="800" height="313" alt="twentytwo" src="https://github.com/user-attachments/assets/ed91a849-a609-405e-87cf-381ee30245f1" />
-
+<img width="800" height="313" alt="twentytwo" src="https://github.com/user-attachments/assets/ed91a849-a609-405e-87cf-381ee30245f1" />\
+We confirmed that Windows logs are being ingested into Splunk Indexer. We would also need to install some additional programs such as XAMPP(to host DVWA),
+Snort for Detection & Alerting, and forward those logs to Splunk as well. Apache/XAMPP logs give us application level visibility, Snort logs give us
+Network layer visibility such as (Source IP, Source Port: Destination IP, Destination IP).\
+Download & Installation of XAMPP & Snort:\
+I have made detailed videos where I download, install and configure XAMPP, Snort & setup DVWA on a Windows. https://youtu.be/t3SdwiL_rsY, https://youtu.be/TcRJLKW-AGc, 
+https://youtu.be/sCU-pFgtkgY
 
 
